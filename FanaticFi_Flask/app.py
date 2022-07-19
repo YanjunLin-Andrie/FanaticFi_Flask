@@ -1,7 +1,6 @@
 import pickle
 import numpy as np
 import pandas as pd
-from pathlib import Path
 from sklearn.preprocessing import StandardScaler
 from flask import Flask,request,render_template,url_for
 
